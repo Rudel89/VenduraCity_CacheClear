@@ -5,7 +5,7 @@ setlocal
 chcp 65001
 
 
-set "expectedName=VenduraCity CacheClear.exe"
+set "expectedName=VenduraCity CacheClear.bat"
 for %%F in ("%~nx0") do if /i not "%%~nxF"=="%expectedName%" (
     color 0C
     echo Fehler: Der Dateiname wurde geändert. Skript wird beendet.
